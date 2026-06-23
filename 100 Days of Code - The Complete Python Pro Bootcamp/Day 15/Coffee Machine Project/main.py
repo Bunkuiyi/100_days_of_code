@@ -36,7 +36,8 @@ def format_resources():
     water_resources = resources["water"]
     milk_resources = resources["milk"]
     coffee_resources = resources["coffee"]
-    print(f"Water: {water_resources}ml\nMilk: {milk_resources}ml\nCoffee: {coffee_resources}g\nMoney: £{MONEY}")
+    money_resources = resources["money"]
+    print(f"Water: {water_resources}ml\nMilk: {milk_resources}ml\nCoffee: {coffee_resources}g\nMoney: £{money_resources}")
 
 # check if resources are sufficient
 def check_resources(user_drink):
